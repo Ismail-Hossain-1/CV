@@ -4,11 +4,12 @@
 
 .topContainer {
   width: 100%; 
-  height: 100px;
+  height: 25vh;
   background: #cfcfdb;
   padding: 3px;
   margin: 5px;
-  border-radius: 3%;
+  border-radius: 5%;
+  font-size: 1vw;
 }
 .image {
   margin-left: 50%;
@@ -17,9 +18,9 @@
   width: 40%;
 }
 .img {
-  height: 100%;
+  height: 25vh;
   display: flex; float: left;
-   width: 25%; 
+   width: 20vw; 
   /*flex-wrap: wrap;
   align-content: center; */
  
@@ -49,10 +50,11 @@
 }
 
 .leftContainer {
+  font-size: 2vw;
   align-self: first baseline;
   background: lightgray;
   float: left;
-  box-shadow: 5px 5px #bbb;
+  box-shadow: 5px 5px #b5fbf1;
   width:30%;
   text-align: center;
   border-radius: 5%;
@@ -69,7 +71,7 @@
   color: #fff;
 }
 .rightContainer {
-  
+  font-size: 2vw;
   align-self: first baseline;
   float: right;
   background: skyblue;
