@@ -1,0 +1,28 @@
+
+/* Element | file:///G:/My%20Drive/Software%20engineering/3-1/Web%20Technologies/CV/index.html */
+
+
+.topContainer {
+  width: 100%;
+  height: auto;
+  background: blue;
+  padding: 20%;
+  margin: 20px;
+}
+.leftContainer {
+  display: flex;
+  align-self: first baseline;
+  background: lightgray;
+  float: left;
+  box-shadow: 5px 5px #bbb;
+  width:30%;
+}
+.rightContainer {
+  display: flex;
+  align-self: first baseline;
+  float: right;
+  background: skyblue;
+  width: 68%;
+  box-shadow: 5px 5px #bbb;
+}
+
