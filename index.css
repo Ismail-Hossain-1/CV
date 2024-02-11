@@ -4,7 +4,7 @@
 
 .topContainer {
   width: 100%; 
-  height: 25vh;
+  height: 20vh;
   background: #cfcfdb;
   padding: 3px;
   margin: 5px;
@@ -18,7 +18,7 @@
   width: 40%;
 }
 .img {
-  height: 25vh;
+  height: 20vh;
   display: flex; float: left;
    width: 20vw; 
   /*flex-wrap: wrap;
@@ -55,7 +55,7 @@
   background: lightgray;
   float: left;
   box-shadow: 5px 5px #b5fbf1;
-  width:30%;
+  width:28%;
   text-align: center;
   border-radius: 5%;
 }
@@ -75,7 +75,7 @@
   align-self: first baseline;
   float: right;
   background: skyblue;
-  width: 68%;
+  width: 71%;
   box-shadow: 5px 5px #bbb;
 }
 
