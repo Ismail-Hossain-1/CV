@@ -3,22 +3,73 @@
 
 
 .topContainer {
-  width: 100%;
-  height: auto;
-  background: blue;
-  padding: 20%;
-  margin: 20px;
+  width: 100%; 
+  height: 100px;
+  background: #cfcfdb;
+  padding: 3px;
+  margin: 5px;
+  border-radius: 3%;
 }
-.leftContainer {
+.image {
+  margin-left: 50%;
+  border-radius: 50%;
+  height: 100%;
+  width: 40%;
+}
+.img {
+  height: 100%;
+  display: flex; float: left;
+   width: 25%; 
+  /*flex-wrap: wrap;
+  align-content: center; */
+ 
+}
+.img {
+  
+  /* height: 100%;
+  width: 25%;
   display: flex;
+  flex-wrap: wrap;
+  align-content: center; */
+}
+.myName {
+  
+  float: right; 
+  width: 75%; 
+   height: 100%;
+}
+.myName {
+  font-size: 100%;
+  font-family: Lucida Sans Typewriter;
+  /* width: 75%;
+  display: flex;
+  float: right;
+  background: lightgray;
+  height: 100%; */
+}
+
+.leftContainer {
   align-self: first baseline;
   background: lightgray;
   float: left;
   box-shadow: 5px 5px #bbb;
   width:30%;
+  text-align: center;
+  border-radius: 5%;
+}
+.lang{
+  
+  text-align: center;
+  background: #171717;
+  width: 47%;
+  margin-left: 25%;
+  border-radius: 20%;
+  font-size: 100%;
+  font-family: Lucida Sans Typewriter;
+  color: #fff;
 }
 .rightContainer {
-  display: flex;
+  
   align-self: first baseline;
   float: right;
   background: skyblue;
